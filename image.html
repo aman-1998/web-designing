@@ -1,0 +1,275 @@
+<html>
+<head>
+<title>images</title>
+<style>
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+	border-radius: 8px;
+	box-shadow:0 8px 12px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.2);
+}
+
+div.img:hover {
+    border: 1px solid #777;
+	background-color:#9acd32;
+}
+
+button:active {
+  box-shadow: 0 4px 0 #006599;
+  transform: translateY(3px);
+}
+
+div.img img {
+    width: 100%;
+    height: 150;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+.section
+{
+background-image:url("../images/bg.jpg");
+background-size:1500px 1050px;
+}	
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+button {
+  border: 0;
+  background:greenyellow;
+  border-radius: 4px;
+  box-shadow: 0 2px 0 #006599;
+  color: blue;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  transition: all .1s linear;
+}
+button:active {
+  box-shadow: 0 4px 0 #006599;
+  transform: translateY(3px);
+}
+
+h1{
+    text-shadow: 5px 0 0 #00FF00, 0 5px 0 #00FF00;
+    font-size:300%;
+}
+table{
+    font-family:Arial, Helvetica, sans-serif;
+    width:100%;
+    color:blue;
+    font-size:200%;
+}
+select{
+    color:blue;
+    background-color:greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:100%;
+}
+
+
+a {
+	text-decoration:none;
+}
+</style>
+</head>
+<body class="section">
+    <img src="../images/india.gif" style="height:120px;width:120px;float:right;">
+<h1><center><a href="homepage.html">Swachh Bharat Abhiyaan</a></center> </h1>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+<button type="button"><a href="homepage.html">Home</button>
+
+<p id="demo"></p>
+
+<table>
+    <tr>
+        <td>
+          <select>
+         <option value="States/cities">States/Cities</option>     
+        <option value="State level information">State level information</option>
+        <option value="Ward level information">Ward level information</option>
+        <option value="City level information">City level information</option>
+        </select>
+        </td>
+
+        <td><button><a href="form.html">Registration form</a></button></td>
+        <td><button><a href="activities.html">Activities</a></button></td>
+		<td><button>Gallery</button></td>
+<td><button><a href="about.html">About us</a></button></td>
+<td>
+    <select>
+        <option value="Help">Help</option>
+        <option value="FAQs">FAQs</option>
+        <option value="Contacts">Contacts</option>
+        <option value="News">News</option>
+        <option value="About">About</option>
+        </select>
+</td>
+</table>
+<marquee direction="right" bgcolor="#ff7f50" onmouseover="this.stop();" onmouseout="this.start();"><font face="calibiri" color="#f0ffff" size="5">Keep your city clean!</font></marquee>
+
+<h1><center>IMAGES</center></h1>
+<div class="img">
+  <a target="_blank" href="../images/modi2.jpg">
+    <img src="../images/modi2.jpg" alt="modi2" width="300" height="200">
+  </a>
+  <div class="desc">PM launches swachh bharat abhiyaan</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="../images/1111.jpg">
+    <img src="../images/1111.jpg" alt="1111" width="300" height="200">
+  </a>
+  <div class="desc">school students cleaning ground </div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="../images/2222.jpg">
+    <img src="../images/2222.jpg" alt="Northern Lights" width="300" height="200">
+  </a>
+  <div class="desc">poster for swachh bharat abhiyaan</div>
+</div>
+
+
+<div class="img">
+  <a target="_blank" href="../images/3333.jpg">
+    <img src="../images/3333.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">staff cleaning there locality</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="../images/4444.jpg">
+    <img src="../images/4444.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">students cleaning classroom</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="../images/5555.jpg">
+    <img src="../images/5555.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">school students throwing garbage</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="../images/7777.jpg">
+    <img src="../images/7777.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">polititions cleaning locality</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="../images/6666.jpg">
+    <img src="../images/6666.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">use toilets</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="../images/8888.jpg">
+    <img src="../images/8888.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">polititions cleaning locality</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="../images/9999.jpg">
+    <img src="../images/9999.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">government servants cleaning the locality</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="../images/nagarjun.jpg">
+    <img src="../images/nagarjun.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="../images/s1.jpg">
+    <img src="../images/s1.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">people protesting for swachh bharat</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="../images/s2.jpg">
+    <img src="../images/s2.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">poster for swachh bharat</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="../images/sanya.jpg">
+    <img src="../images/sanya.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">sania mirza joining swachh bharat</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="../images/sva2.jpg">
+    <img src="../images/sva2.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="../images/swachha1.jpg">
+    <img src="../images/swachha1.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">people cleaning cities</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="../images/tigr.jpg">
+    <img src="../images/tigr.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">bollywood stars joining swachh bharat</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="..//1010.jpg">
+    <img src="../images/1010.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">introducing toilets</div>
+</div>
+</div>
+
+</body>
+</html>

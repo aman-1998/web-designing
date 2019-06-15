@@ -1,0 +1,124 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<title>SWACHH BHARAT ACTIVITIES</title>
+
+<style>
+div.relative {
+    position: relative;
+    left: 50px;
+}
+div.img {
+	
+    border: 0.1px solid #ccc;
+}
+
+div.img:hover {
+    border: 3px solid #777;
+}
+
+div.desc {
+    padding: 20px;
+    text-align:left;
+}
+div.desc:hover{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+</style>
+</head>
+
+<div class="relative"><body background="./Images/ecogreen.jpg">
+<h1 style="text-align:center;font-family:Broadway;"><u>ACTIVITIES</u></h1>
+<table border=0 width=90% height=80%>
+<tr>
+<th width= 90 align ="left";><u>MYNNAR JIRANG GOVERNMENT LOWER PRIMARY SCHOOL</u></th>
+<th width=900 align="center";>Prime Minister Shri Narendra Modi exhorted people to fulfill Mahatma Gandhi's vision of Clean India.The <b>'Swachh Bharat Abhiyan'</b> is a massive mass movement that seeks to create a Clean India.Cleanliness was very close to Mahatma Gandhi's heart.A clean India is the best tribute we can pay to Bapu when we celebrate his 150th birth anniversary in 2019.Now some of the <em>activities</em> done by Indian people in order to drive this pledge towards success are given below:<br></th>
+<th width=90 align="right";><u>Some before and after pictures of people's contribution to swachh bharat abhiyan:</u></th></tr>
+
+<tr>
+<td>We Organized Swachh Bharat Mission in our School on this Moment we the teachers taught our students about Cleanliness and Clean Society at the same time we also explained them about this mission and aims of it to encourage them towards this mission or cleanliness .After that we started for clean drive and we cleaned all our school surrounded area e.g. School’s Playground, Way, nearby village way, toilets etc.</td>
+<td><h3><u>Cleanliness activities at sub-station of Powergrid</u></h3>
+<div class="img"><img src="./Images/images for project/1.jpg"alt="Activities1"  width="400" height="300"><div class="desc">At Jamshedpur</div></div>
+<td>
+	<img src="./Images/images for project/b4af1.jpg"alt="b4af1"  width="300" height="200"
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td><h3><u>Cleaning of Roads</u></h3>
+<div class="img"><img src="./Images/images for project/2.jpg"alt="Activities2"  width="400" height="300"><div class="desc">At Shillong</div></div>
+</td>
+<td><img src="./Images/images for project/b4af2.jpg"alt="b4af2"  width="300" height="200"></td>
+</tr>
+
+<tr>
+<td></td>
+	<td><h3><u>Participants from Govt. Boys Higher School,Leh Ladakh</u></h3>
+<div class="img"><img src="./Images/images for project/3.jpg"alt="Activities3"  width="400" height="300"><div class="desc">At Leh Ladakh</div></div></td>
+<td><img src="./Images/images for project/b4af3.jpg"alt="b4af3"  width="300" height="200"><br></td>
+</tr>
+
+<tr>
+<td></td>
+<td><h3><u>Pledge taken during Swachhta Pakhwada by Officers of Airports Authority of India</u></h3>
+<div class="img"><img src="./Images/images for project/4.jpg"alt="Activities4"  width="400" height="300"><div class="desc">At Bangalore</div></div></td>
+<td><img src="./Images/images for project/b4af4.jpg"alt="b4af4"  width="300" height="200"></td>
+</tr>
+
+<tr>
+<td></td>
+<td><h3><u>Collection of Waste</u></h3>
+<div class="img"><img src="./Images/images for project/5.jpg"alt="Activities5"  width="400" height="300"><div class="desc">At Bombay</div></div></td>
+<td>
+<img src="./Images/images for project/b4af5.jpg"alt="b4af5"  width="300" height="200"><div class="desc"></td>
+</tr>
+
+<tr>
+<td></td>
+	<td><h3><u>Spreading the goodness of Swachh Bharat Abhiyan</u></h3>
+<div class="img"><img src="./Images/images for project/6.jpg"alt="Activities6"  width="400" height="300"><div class="desc"></div>At Delhi</div></td>
+<td><img src="./Images/images for project/b4af6.jpg"alt="b4af6"  width="300" height="200"><br></td>
+</tr>
+
+<tr>
+<td></td>
+	<td><h3><u>Biotoilets installed in public places</u></h3>
+<div class="img"><img src="./Images/images for project/7.jpg"alt="Activities7"  width="400" height="300"><div class="desc">At Puri</div></div></td>
+<td><img src="./Images/images for project/b4af7.jpg"alt="b4af7"  width="300" height="200"><br></td>
+</tr>
+
+<tr>
+<td></td>
+	<td><h3><u>Mass pledge by students and employees</u></h3>
+<div class="img"><img src="./Images/images for project/8.jpg"alt="Activities8"  width="400" height="300"><div class="desc">At Patna</div></div></td>
+<td><img src="./Images/images for project/b4af8.jpg"alt="b4af8"  width="300" height="200"><br></td>
+</tr>
+
+<tr>
+<td></td>
+	<td><h3><u>Display of banners on Swachhta</u></h3>
+<div class="img"><img src="./Images/images for project/9.jpg"alt="Activities9"  width="400" height="300"><br></td>
+<td><img src="./Images/images for project/b4af9.jpg"alt="b4af9"  width="300" height="200"><div class="desc">At Jhansi</div></div></td>
+</tr>
+
+<tr>
+<td></td>
+	<td><h3><u>Solar panels have been installed for renewable energy</u></h3>
+<div class="img"><img src="./Images/images for project/10.jpg"alt="Activities10"  width="400" height="300"><div class="desc">At Cherrapunji</div></div></td>
+<td><h3><u>Clean India</u></h3>
+<img src="./Images/images for project/cleanindia3.jpg"alt="cleanindia3"  width="300" height="200"><br></td>
+</tr>
+<tr>
+<td></td>
+<td><h3><u>Painting competition on Swachh Bharat Abhiyan</u></h3>
+<div class="img"><img src="./Images/images for project/11.jpg"alt="Activities11"  width="350" height="400"><div class="desc">At Howrah</div></div></td>
+<td>
+<img src="./Images/images for project/cleanindia1.jpg"alt="cleanindia1"  width="300" height="200"><br></td>
+	
+</tr>
+</table>
+</body></div>
+</html>

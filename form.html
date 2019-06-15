@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form</title>
+<style>
+	.aman {
+	background-image:url("../images/bg.jpg");
+	background-size:1500px 850px;
+			background-repeat:no-repeat;
+	}
+	/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+
+.active {
+  background-color: #717171;
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+button {
+  border: 0;
+  background:greenyellow;
+  border-radius: 4px;
+  box-shadow: 0 2px 0 #006599;
+  color: blue;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  transition: all .1s linear;
+}
+button:active {
+  box-shadow: 0 4px 0 #006599;
+  transform: translateY(3px);
+}
+
+h1{
+    text-shadow: 5px 0 0 #00FF00, 0 5px 0 #00FF00;
+    font-size:300%;
+}
+
+.fortable {
+    font-family:Arial, Helvetica, sans-serif;
+    width:100%;
+    color:blue;
+    font-size:200%;
+}
+.forselect {
+    color:blue;
+    background-color:greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:100%;
+}
+.border {
+			border-style:outset;
+			border-color:#3385ff;
+			border-width:1px;
+		}
+		
+		a {
+		text-decoration: none;
+		}
+		a.login {
+		background-color:#00a3cc;
+		color:red;
+		}
+		a.login:hover {
+		background-color:#6699ff;
+		}
+		tr.aman:hover{background-color:#e6eeff}
+</style>
+</head>
+<body>
+<div class="aman">
+    <img src="../images/india.gif" style="height:120px;width:120px;float:right;">
+<h1> <center><a href="homepage.html">Swachh Bharat Abhiyaan</a></center> </h1>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+<button type="button"><a href="homepage.html">Home</button>
+
+<p id="demo"></p>
+
+<table class="fortable">
+    <tr>
+        <td>
+          <select class="forselect">
+         <option value="States/cities">States/Cities</option>     
+        <option value="State level information">State level information</option>
+        <option value="Ward level information">Ward level information</option>
+        <option value="City level information">City level information</option>
+        </select>
+        </td>
+
+        <td><button>Registration form</button></td>
+        <td><button><a href="activities.html">Activities</a></button></td>
+		<td><button><a href="image.html">Gallery</a></button></td>
+<td><button><a href="about.html">About us</a></button></td>
+<td>
+    <select class="forselect">
+        <option value="Help">Help</option>
+        <option value="FAQs">FAQs</option>
+        <option value="Contacts">Contacts</option>
+        <option value="News">News</option>
+        <option value="About">About</option>
+        </select>
+</td>
+</table>
+<p>
+<marquee direction="right" bgcolor="#ff7f50" onmouseover="this.stop();" onmouseout="this.start();"><font face="calibiri" color="#f0ffff" size="5">Keep your city clean!</font></marquee>
+</p>
+<p>
+<p style="color:red; font-size:140%;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="login.html" class="login">&nbsp;Click here to login&nbsp;</a></p>
+<form>
+<table border="2" bordercolor="#00a3cc" cellspacing="0" cellpadding="10" width="630" align="center">
+<tr>
+	<th bgcolor="#00a3cc"><font size="6">New Account</font></th>
+</tr>
+<tr class="aman">
+	<th>
+		<font face="Stencil" color="black">
+			<p align="left">First Name: &nbsp;&nbsp;&nbsp;<input class="border" name="a" type="text" placeholder="Write Your First Name" 					    	          required="" size="21">&nbsp;&nbsp;&nbsp;
+			Last Name: &nbsp;&nbsp;&nbsp;<input class="border" name="b" type="text" placeholder="Write Your Last Name" size="21"></p>
+			
+			<p align="left">Phone No. &nbsp;&nbsp;&nbsp;<input class="border" name="d" type="number" placeholder="Telephone No." 				          	size="66"  required="" max="9999999999" min="0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input class="border" name="d" type="number" placeholder="Telephone No." 				          				size="66" max="9999999999" min="0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input class="border" name="d" type="number" placeholder="Telephone No." 				          				size="66" max="9999999999" min="0"></p>
+			<p align="left">Email Id: &nbsp;&nbsp;&nbsp;<input class="border" name="c" type="email" placeholder="Write your Email Id" 						          size="68"  required=""></p>
+			<p align="left">Enter Password: &nbsp;&nbsp;&nbsp;&nbsp;<input class="border" name="e" type="password" placeholder="Password" 				          size="57"  required=""></p>
+			<p align="left">Re-Enter Password: &nbsp;&nbsp;&nbsp;<input class="border" name="f" type="password" placeholder="Password" 				          size="54"  required=""></p>
+			<P align="left">Date Of Birth: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select class="border" name="g" size="1">
+		<option name="q">Date &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+				<option name="h">1</option>
+				<option name="i">2</option>
+				<option name="j">3</option>
+				<option name="k">4</option>
+				<option name="l">5</option>
+				<option name="m">6</option>
+				<option name="n">7</option>
+				<option name="o">8</option>
+				<option name="p">9</option>
+			      </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<select class="border" name="r" size="1">
+				<option name="s">Month 								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+				<option name="t">January</option>
+				<option name="u">February</option>
+				<option name="v">March</option>
+				<option name="w">April</option>
+				<option name="x">May</option>
+				<option name="y">June</option>
+				<option name="z">July</option>
+				<option name="aa">August</option>
+				<option name="ab">September</option>
+				<option name="ac">October</option>
+				<option name="ad">November</option>
+				<option name="ae">December</option>
+			      </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<select class="border" name="af" size="1">
+				<option name="ag">Year 								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+				<option name="ah">1990</option>
+				<option name="ai">1991</option>
+				<option name="aj">1992</option>
+				<option name="ak">1993</option>
+				<option name="al">1994</option>
+				<option name="am">1995</option>
+				<option name="an">1996</option>
+				<option name="ao">1997</option>
+				<option name="ap">1998</option>
+				<option name="aq">1999</option>
+				<option name="ar">2000</option>
+				<option name="as">2001</option>
+			      </select></P>
+		 	      <p align="left">country: &nbsp;&nbsp;&nbsp;&nbsp;<select class="border" name="au">
+				<option name="av">Nation</option>
+				<optgroup level="asia">
+				<option name="aw">India</option>
+				<option name="ax">China</option>
+				<option name="ay">Nepal</option>
+				</optgroup>
+				<optgroup level="europe">
+				<option name="az">England</option>
+				<option name="ba">Spain</option>
+				<option name="bc">portugal</option>
+				</optgroup>
+				<optgroup level="america">
+				<option name="bd">USA</option>
+				<option name="be">Mexico</option>
+				<option name="bf">West Indies</option>
+				</optgroup>
+			</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Degree: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="border" name="qw" type="text" value=" Graduated" 						readonly="" size="33"></p>
+			<p align="left">Gender: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input name="at" type="radio">MALE
+			        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input name="at" type="radio">FEMALE
+			        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input name="at" type="radio">NEUTAR</p>
+			<p align="left">
+				Languages known: &nbsp;&nbsp;&nbsp;&nbsp;<input name="bg" type="checkbox">HINDI
+			   	            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="border" name="bh" type="checkbox">ENGLISH
+				            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="border" name="bi" type="checkbox">BENGALI
+				            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="border" name="bi" type="checkbox">URDU
+
+			<br>
+			</p>
+			<input class="border" name="bj" type="submit" value="Create Account">&nbsp;&nbsp;&nbsp;
+			<input class="border" name="bj" type="reset" value="Reset">
+		</font>
+	</th>
+</tr>
+</table>
+</form>
+
+</div>
+<marquee direction="right" bgcolor="#809fff" onmouseover="this.stop();" onmouseout="this.start();"><font face="calibiri" color="#fffff" size="5">For any querries call at: 9883274389 or 9883274390</font></marquee>
+<div style="background-color:#2f2f1e;">
+	<p>
+	<br>
+	</p>
+	<font face="calibri" color="#e0e0d1" size="3">
+	<p style="text-align:center;">&copy; Copyright 2017</p>
+	<p style="text-align:right;">Disclaimer and Privacy Policy&nbsp;&nbsp;&nbsp;</p>
+	<p>&nbsp;&nbsp;&nbsp;Website hosted & maintained by team Dead Pool.</p>
+	<p>&nbsp;&nbsp;&nbsp;Team <i>Dead Pool</i> consists of 5 members</p>
+	<ul type="square">
+	<li>Akansha
+	<li>Kamlesh
+	<li>Rupsha
+	<li>Sourav
+	<li>Aman
+	</ul>
+	<p>&nbsp;&nbsp;&nbsp;Contents obtained from google and www.swakshbharatabhiyan.com (Original Website is created by: Ministry of Drinking Water and Sanitation, Government of India).</p>
+	<p style="text-align:center;">Best viewed on IE 11 or above with resolution IE 11 or above with resolution 1024 X 768 or above</p>
+	</font>
+	<p>
+	<br>
+	</p>
+</div>
+</body>
+</html>

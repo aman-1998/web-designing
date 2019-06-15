@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<title>WELCOME</title>
+</head>
+<style>
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+button {
+  border: 0;
+  background:greenyellow;
+  border-radius: 4px;
+  box-shadow: 0 2px 0 #006599;
+  color: blue;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  transition: all .1s linear;
+}
+button:active {
+  box-shadow: 0 4px 0 #006599;
+  transform: translateY(3px);
+}
+
+.section {
+    background-image:url("../images/bg.jpg");
+    background-size: 1500px 1500px;
+	background-repeat: no-repeat;
+}
+h1{
+    text-shadow: 5px 0 0 #00FF00, 0 5px 0 #00FF00;
+    font-size:300%;
+}
+table{
+    font-family:Arial, Helvetica, sans-serif;
+    width:100%;
+    color:blue;
+    font-size:200%;
+}
+select{
+    color:blue;
+    background-color:greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:100%;
+}
+
+.seperation {
+	border-style:groove;
+	border-color:#00b300;
+	border-width:2px;
+	padding:10px;
+}
+a {
+	text-decoration:none;
+}
+</style>
+<body>
+<div class="section">
+    <img src="../images/india.gif" style="height:120px;width:120px;float:right;">
+<h1> <center>Swachh Bharat Abhiyaan</center> </h1>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+<table>
+    <tr>
+        <td>
+          <select>
+         <option value="States/cities">States/Cities</option>     
+        <option value="State level information">State level information</option>
+        <option value="Ward level information">Ward level information</option>
+        <option value="City level information">City level information</option>
+        </select>
+        </td>
+
+        <td><button><a href="form.html">Registration form</a></button></td>
+        <td><button><a href="activities.html">Activities</a></button></td>
+		<td><button><a href="image.html">Gallery</a></button></td>
+
+		<td><button><a href="about.html">About us</a></button></td>
+<td>
+    <select>
+        <option value="help">Help</option>
+        <option value="faqs">FAQs</option>
+        <option value="contacts">Contacts</option>
+        <option value="news">News</option>
+      
+        </select>
+</td>
+</table>
+<marquee direction="right" bgcolor="#ff7f50" onmouseover="this.stop();" onmouseout="this.start();"><font face="calibiri" color="#f0ffff" size="5">Keep your city clean!</font></marquee>
+<center>
+<p>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="../images/swachhta.jpg" height="300" width="600">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="../images/dustbin.jpg" height="300" width="600"">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="../images/cleanindia.jpg" height="300" width="600">
+</div>
+</p>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</center>
+
+<div style="font-family: Elephant; color:black; font-size:150%">
+<p class="seperation"><i><b>Swachh Bharat Abhiyaan</b></i> is a campaign by the Government of India to clean the streets, roads and infrastructure of the country's 4,041 statutory cities and towns.
+The campaign was officially launched on 2 October<font color="blue"> 2014 at Rajghat, New Delhi,</font> by Prime Minister Narendra Modi.
+ It is<font color="blue"> India's largest</font> ever cleanliness drive with <font color="blue">3 million government employees,</font> and especially school and college students from all parts of India, participating in the campaign.
+<br>
+<br><font color="blue">Prime Minister Shri Narendra Modi</font> exhorted people to fullfill<font color="blue"> Mahatma Gandhi's</font> vision of Clean India. The Swachh Bharat Abhiyan is a massive movement that seeks to create a Clean India. Cleanliness was very close to Mahatma Gandhi's heart. A clean India is the best tribute we can pay to Bapu.
+ </p>
+</div>
+
+<div style="background-color:#2f2f1e;">
+	<p>
+	<br>
+	</p>
+	<font face="calibri" color="#e0e0d1" size="3">
+	<p style="text-align:center;">&copy; Copyright 2017</p>
+	<p style="text-align:right;">Disclaimer and Privacy Policy&nbsp;&nbsp;&nbsp;</p>
+	<p>&nbsp;&nbsp;&nbsp;Website hosted & maintained by team Dead Pool.</p>
+	<p>&nbsp;&nbsp;&nbsp;Team <i>Dead Pool</i> consists of 5 members</p>
+	<ul type="square">
+	<li>Akansha
+	<li>Kamlesh
+	<li>Rupsha
+	<li>Sourav
+	<li>Aman
+	</ul>
+	<p>&nbsp;&nbsp;&nbsp;Contents obtained from google and www.swakshbharatabhiyan.com (Original Website is created by: Ministry of Drinking Water and Sanitation, Government of India).</p>
+	<p style="text-align:center;">Best viewed on IE 11 or above with resolution IE 11 or above with resolution 1024 X 768 or above</p>
+	</font>
+	<p>
+	<br>
+	</p>
+</div>
+</div>
+</body>
+</html>
